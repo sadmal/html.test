@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surprise-test</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .order-details{
+         text-align: center;
+         border: 40px solid rgb(223, 55, 55);
+         text-align-last: center;
+        border-radius: 20px;
+        padding: 40px;
+         
+        }
+        .name,.mail,.password,.address,.pincode{
+            width: 40%;
+            height: 30px;
+        }
+        .btn{
+            width: 10%;
+            font-size: 18px;
+            border: none;
+            background-color: rgb(223, 55, 55);
+            font-weight: bold;
+        }
+        /* .personal-details{
+             border: 40px solid rgb(223, 55, 55);
+        } */
+
+    </style>
+</head>
+<body>
+    <form>
+        <div class="order-details">
+           <h1 class="heading">Order your product</h1>
+        <div class="personal-details">
+
+        <input class="name" type="text" placeholder="Enter your name" required> <br>
+        <br>
+        <input class="mail" type="email" placeholder="Enter your mail" required> <br>
+        <br>
+        <input class="password" type="password" placeholder="Enter your password" required> <br>
+        <br>
+        <input class="address type="text" placeholder="Enter your address" required> <br>
+        <br>
+        <input class="pincode" type="number" placeholder="Pincode" required>
+    </div>
+        <br>
+        <br>
+        <button class="btn">Place Order</button> 
+        </div>
+        
+    </form>
+</body>
+</html>
